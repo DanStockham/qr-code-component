@@ -22,7 +22,7 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background: var(--grayish-blue);
+    background: var(--light-gray);
 }
 
 .page-container {
@@ -35,9 +35,10 @@ footer {
 
 .qr-scan-container {
     background: var(--white);
-    width: 350px;
+    width: 324px;
     padding: 20px;
     border-radius: 20px;
+    box-shadow:  0 1px 3px var(--grayish-blue),  0 1px 2px var(--grayish-blue);
 }
 
 .qr-scan-container * {
@@ -57,5 +58,9 @@ footer {
 
 .content-header-message {
     font-size: 1.6rem;
+}
+
+.content-message {
+    color: var(--grayish-blue);
 }
 
