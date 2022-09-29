@@ -36,6 +36,7 @@ footer {
 .qr-scan-container {
     background: var(--white);
     width: 324px;
+    max-height: 100vh;
     padding: 20px;
     border-radius: 20px;
     box-shadow:  0 1px 3px var(--grayish-blue),  0 1px 2px var(--grayish-blue);
